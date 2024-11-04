@@ -117,8 +117,28 @@
   line-height: 22px;
 }
 
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:768px) {
   .main-top, .main-bottom {
     flex-wrap: wrap;
+  }
+  .text-paragraph {
+    padding: 0 10px;
+  }
+  .main-top .content {
+    bottom: auto;
+  }
+  .main-bottom .content {
+    bottom: auto;
+  }
+  .container .box-img {
+    width: 80%;
+    height: 80vh;
+  }
+  .box-content {
+    display: flex;
+    align-items: center;
+  }
+  .box-content h1 {
+    font-size: 3em;
   }
 }
