@@ -60,7 +60,7 @@
   justify-content: center;
 }
 .main-bottom .box-content h1 {
-  margin-bottom: 10px;
+  margin-bottom: 22px;
 }
 .main-bottom .box-content p {
   margin-bottom: 16px;
@@ -72,16 +72,22 @@
   height: 800px;
   position: relative;
   border-radius: 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
   padding-bottom: 47px;
-  gap: 16px;
 }
 .content {
   position: absolute;
   left: 49px;
   right: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 16px;
+}
+.main-top .content {
+  bottom: 40px;
+}
+.main-bottom .content {
+  bottom: 50px;
 }
 .main .box-img {
   width: 684px;
